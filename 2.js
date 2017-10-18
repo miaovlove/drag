@@ -12,6 +12,10 @@ window.onload = function(){
 function akp(){
 	alert('ll');
 }
+
+function kop(){
+	alert("aaa");
+}
 	function drag(obj){
 		
 		var dix=0;
