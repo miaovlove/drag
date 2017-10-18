@@ -6,6 +6,8 @@ window.onload = function(){
 	
 	}
 	
+	alert("");
+	console.log("明天是美好的");
 	function drag(obj){
 		
 		var dix=0;
