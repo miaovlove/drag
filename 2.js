@@ -11,18 +11,14 @@ window.onload = function(){
 		var dix=0;
 		var diy=0;
 		obj.onmousedown = function(ev){
-			var ev = ev||window.event;
+			dix= ev.pageX-dix;
 			
-			dix= ev.clientX-dix;
-			
-			diy=ev.clientY-diy;
+			diy=ev.pageY-diy;
 			
 			document.onmousemove = function(ev){
-				var ev = ev||window.event;
+				obj.style.left=ev.pageX-dix+"px";
 				
-				obj.style.left=ev.clientX-dix+"px";
-				
-				obj.style.top= ev.clientY-diy+"px";
+				obj.style.top= ev.pageY-diy+"px";
 				}
 				document.onmouseup = function(){
 					
