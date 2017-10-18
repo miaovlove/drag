@@ -1,4 +1,4 @@
-// JavaScript Document
+﻿// JavaScript Document
 window.onload = function(){
 	
 	var oDiv = document.querySelector(".div1");
@@ -8,6 +8,8 @@ window.onload = function(){
 	
 	alert("");
 	console.log("明天是美好的");
+	
+
 	function drag(obj){
 		
 		var dix=0;
